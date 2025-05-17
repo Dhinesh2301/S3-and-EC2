@@ -82,3 +82,17 @@ To create a Simple Storage Service (S3) bucket in AWS and to launch an EC2 insta
 - **Linux Users**: Use SSH with your `.pem` key:
   ```bash
   ssh -i "your-key.pem" ec2-user@your-ec2-public-dns
+### D)Steps to Clean Up (Terminate the Instance)
+1.Go to EC2 Instances.
+2.Select your instance → Instance State → Terminate.
+
+### Snapshots
+![image](https://github.com/user-attachments/assets/dc95ffb3-bdb6-4fea-bee0-cf0a3996f171)
+Snap Shot 1: Simple Storage Service (S3)
+
+![image](https://github.com/user-attachments/assets/276a9025-f11c-4bd5-bfcc-6a20e8a572e4)
+Snap Shot 2:  EC2 (Elastic Compute Cloud) – Instance
+
+### Result:
+Thus, a Simple Storage Service (S3) and EC2 (Elastic Compute Cloud) - instance has been successfully created and launched in AWS
+
